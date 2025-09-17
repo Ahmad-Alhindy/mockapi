@@ -1,0 +1,36 @@
+{
+  "chargingStations": [
+    {
+      "stationId": "S1",
+      "address": "123 Main Street, City A",
+      "chargers": [
+        {
+          "chargerId": "C1",
+          "status": "busy"
+        },
+        {
+          "chargerId": "C2",
+          "status": "available"
+        }
+      ]
+    },
+    {
+      "stationId": "S2",
+      "address": "456 Central Avenue, City B",
+      "chargers": [
+        {
+          "chargerId": "C1",
+          "status": "available"
+        },
+        {
+          "chargerId": "C2",
+          "status": "busy"
+        },
+        {
+          "chargerId": "C3",
+          "status": "available"
+        }
+      ]
+    }
+  ]
+}
