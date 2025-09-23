@@ -7,7 +7,10 @@
       "price": 3.5,
       "chargers": [
         { "chargerId": "01", "status": "available" },
-        { "chargerId": "02", "status": "unavailable" }
+        { "chargerId": "02", "status": "unavailable" },
+        { "chargerId": "03", "status": "available" },
+        { "chargerId": "04", "status": "out of order" },
+        { "chargerId": "05", "status": "available" }
       ]
     },
     {
@@ -17,7 +20,10 @@
       "price": 4.0,
       "chargers": [
         { "chargerId": "01", "status": "available" },
-        { "chargerId": "02", "status": "available" }
+        { "chargerId": "02", "status": "available" },
+        { "chargerId": "03", "status": "out of order" },
+        { "chargerId": "04", "status": "available" },
+        { "chargerId": "05", "status": "unavailable" }
       ]
     },
     {
@@ -27,7 +33,10 @@
       "price": 3.2,
       "chargers": [
         { "chargerId": "01", "status": "out of order" },
-        { "chargerId": "02", "status": "available" }
+        { "chargerId": "02", "status": "available" },
+        { "chargerId": "03", "status": "available" },
+        { "chargerId": "04", "status": "unavailable" },
+        { "chargerId": "05", "status": "available" }
       ]
     },
     {
@@ -38,7 +47,9 @@
       "chargers": [
         { "chargerId": "01", "status": "unavailable" },
         { "chargerId": "02", "status": "available" },
-        { "chargerId": "03", "status": "available" }
+        { "chargerId": "03", "status": "available" },
+        { "chargerId": "04", "status": "out of order" },
+        { "chargerId": "05", "status": "available" }
       ]
     },
     {
@@ -47,7 +58,11 @@
       "location": { "lat": 57.77110, "lng": 14.16400 },
       "price": 3.6,
       "chargers": [
-        { "chargerId": "01", "status": "available" }
+        { "chargerId": "01", "status": "available" },
+        { "chargerId": "02", "status": "available" },
+        { "chargerId": "03", "status": "unavailable" },
+        { "chargerId": "04", "status": "available" },
+        { "chargerId": "05", "status": "out of order" }
       ]
     },
     {
@@ -57,7 +72,10 @@
       "price": 3.3,
       "chargers": [
         { "chargerId": "01", "status": "available" },
-        { "chargerId": "02", "status": "out of order" }
+        { "chargerId": "02", "status": "out of order" },
+        { "chargerId": "03", "status": "available" },
+        { "chargerId": "04", "status": "unavailable" },
+        { "chargerId": "05", "status": "available" }
       ]
     },
     {
@@ -67,7 +85,10 @@
       "price": 4.2,
       "chargers": [
         { "chargerId": "01", "status": "available" },
-        { "chargerId": "02", "status": "unavailable" }
+        { "chargerId": "02", "status": "unavailable" },
+        { "chargerId": "03", "status": "available" },
+        { "chargerId": "04", "status": "out of order" },
+        { "chargerId": "05", "status": "available" }
       ]
     },
     {
@@ -77,7 +98,10 @@
       "price": 3.4,
       "chargers": [
         { "chargerId": "01", "status": "unavailable" },
-        { "chargerId": "02", "status": "available" }
+        { "chargerId": "02", "status": "available" },
+        { "chargerId": "03", "status": "available" },
+        { "chargerId": "04", "status": "out of order" },
+        { "chargerId": "05", "status": "available" }
       ]
     },
     {
@@ -87,7 +111,10 @@
       "price": 3.9,
       "chargers": [
         { "chargerId": "01", "status": "out of order" },
-        { "chargerId": "02", "status": "available" }
+        { "chargerId": "02", "status": "available" },
+        { "chargerId": "03", "status": "available" },
+        { "chargerId": "04", "status": "unavailable" },
+        { "chargerId": "05", "status": "available" }
       ]
     },
     {
@@ -98,7 +125,9 @@
       "chargers": [
         { "chargerId": "01", "status": "available" },
         { "chargerId": "02", "status": "unavailable" },
-        { "chargerId": "03", "status": "available" }
+        { "chargerId": "03", "status": "available" },
+        { "chargerId": "04", "status": "available" },
+        { "chargerId": "05", "status": "out of order" }
       ]
     }
   ]
