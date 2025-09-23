@@ -1,35 +1,104 @@
 {
   "chargingStations": [
     {
-      "stationId": "S1",
-      "address": "123 Main Street, City A",
+      "stationId": "5160",
+      "address": "Juneporten, Jönköping",
+      "location": { "lat": 57.78145, "lng": 14.15618 },
+      "price": 3.5,
       "chargers": [
-        {
-          "chargerId": "C1",
-          "status": "busy"
-        },
-        {
-          "chargerId": "C2",
-          "status": "available"
-        }
+        { "chargerId": "01", "status": "available" },
+        { "chargerId": "02", "status": "unavailable" }
       ]
     },
     {
-      "stationId": "S2",
-      "address": "456 Central Avenue, City B",
+      "stationId": "5161",
+      "address": "A6 Center, Jönköping",
+      "location": { "lat": 57.78190, "lng": 14.19050 },
+      "price": 4.0,
       "chargers": [
-        {
-          "chargerId": "C1",
-          "status": "available"
-        },
-        {
-          "chargerId": "C2",
-          "status": "busy"
-        },
-        {
-          "chargerId": "C3",
-          "status": "available"
-        }
+        { "chargerId": "01", "status": "available" },
+        { "chargerId": "02", "status": "available" }
+      ]
+    },
+    {
+      "stationId": "5162",
+      "address": "Jönköping University",
+      "location": { "lat": 57.78020, "lng": 14.16380 },
+      "price": 3.2,
+      "chargers": [
+        { "chargerId": "01", "status": "out of order" },
+        { "chargerId": "02", "status": "available" }
+      ]
+    },
+    {
+      "stationId": "5163",
+      "address": "Rosenlund, Jönköping",
+      "location": { "lat": 57.78290, "lng": 14.22340 },
+      "price": 3.8,
+      "chargers": [
+        { "chargerId": "01", "status": "unavailable" },
+        { "chargerId": "02", "status": "available" },
+        { "chargerId": "03", "status": "available" }
+      ]
+    },
+    {
+      "stationId": "5164",
+      "address": "Munksjöstaden, Jönköping",
+      "location": { "lat": 57.77110, "lng": 14.16400 },
+      "price": 3.6,
+      "chargers": [
+        { "chargerId": "01", "status": "available" }
+      ]
+    },
+    {
+      "stationId": "5165",
+      "address": "Västra Torget, Jönköping",
+      "location": { "lat": 57.77740, "lng": 14.14720 },
+      "price": 3.3,
+      "chargers": [
+        { "chargerId": "01", "status": "available" },
+        { "chargerId": "02", "status": "out of order" }
+      ]
+    },
+    {
+      "stationId": "5166",
+      "address": "Gränna Porten (north of Jönköping)",
+      "location": { "lat": 58.01670, "lng": 14.46640 },
+      "price": 4.2,
+      "chargers": [
+        { "chargerId": "01", "status": "available" },
+        { "chargerId": "02", "status": "unavailable" }
+      ]
+    },
+    {
+      "stationId": "5167",
+      "address": "Hovslätt, Jönköping",
+      "location": { "lat": 57.72710, "lng": 14.11890 },
+      "price": 3.4,
+      "chargers": [
+        { "chargerId": "01", "status": "unavailable" },
+        { "chargerId": "02", "status": "available" }
+      ]
+    },
+    {
+      "stationId": "5168",
+      "address": "Bankeryd, Jönköping",
+      "location": { "lat": 57.85940, "lng": 14.12680 },
+      "price": 3.9,
+      "chargers": [
+        { "chargerId": "01", "status": "out of order" },
+        { "chargerId": "02", "status": "available" }
+      ]
+    },
+    {
+      "stationId": "5169",
+      "address": "Taberg, Jönköping",
+      "location": { "lat": 57.68300, "lng": 14.08540 },
+      "price": 3.7,
+      "chargers": [
+        { "chargerId": "01", "status": "available" },
+        { "chargerId": "02", "status": "unavailable" },
+        { "chargerId": "03", "status": "available" }
       ]
     }
   ]
