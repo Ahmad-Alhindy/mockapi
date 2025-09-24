@@ -2,7 +2,7 @@
   "chargingStations": [
     {
       "stationId": "5160",
-      "address": "Juneporten, Jönköping",
+      "address": "Jönköping Entré B",
       "location": { "lat": 57.78145, "lng": 14.15618 },
       "price": 3.5,
       "chargers": [
