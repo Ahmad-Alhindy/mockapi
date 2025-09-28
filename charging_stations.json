@@ -6,11 +6,11 @@
       "location": { "lat": 57.78145, "lng": 14.15618 },
       "price": 3.5,
       "chargers": [
-        { "chargerId": "01", "status": "available" },
+        { "chargerId": "01", "status": "unavailable" },
         { "chargerId": "02", "status": "unavailable" },
-        { "chargerId": "03", "status": "available" },
+        { "chargerId": "03", "status": "unavailable" },
         { "chargerId": "04", "status": "out of order" },
-        { "chargerId": "05", "status": "available" }
+        { "chargerId": "05", "status": "unavailable" }
       ]
     },
     {
